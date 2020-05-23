@@ -1,3 +1,35 @@
+//aptrinsic code
+<!-- Aptrinsic Tag-->
+  <script type="text/javascript">
+  (function(n,t,a,e){var i="aptrinsic";n[i]=n[i]||function(){
+      (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;
+    var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
+    var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
+  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-XTICVJH7WFCI-2");
+</script>
+<!-- End Aptrinsic Tag-->
+
+//Identity code
+//passing user and account objects:
+aptrinsic("identify",
+  {
+  //User Fields
+    "id": "shan0130", // Required for logged in app users
+    "email": "shan0130@address.com",
+    "firstName": "shan",
+    "lastName": "test",
+    "signUpDate": 1522697426479, //unix time in ms
+    "plan" : "gold", //Custom attributes - please create those custom attributes in Aptrinsic via Account Settings to be tracked.
+    "price" : 95.5,
+    "userHash": "" // optional transient for HMAC identification
+  },
+  {
+  //Account Fields
+    "id":"Drum1234", //Required
+    "name":"Drum",
+    "Program": "Platinum" // flat custom attributes
+ });
+
 var navElements = document.querySelectorAll(".drum");
 for (var i = 0; i < navElements.length; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function()  //anonymous function
