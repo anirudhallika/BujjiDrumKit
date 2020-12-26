@@ -133,14 +133,14 @@ function keyNote(event) {
         alert('Invalid Key');
 
   }
-  if (count === 150)
-  {
-    alert("Donga 150 beats ofoo, Kummeyi Enjoy Chestunava");
-  }
-  if(JSON.stringify(supriseSet)==JSON.stringify(targetset))
-  {
-   alert("Bujjigaaa I Love You");
-  }
+//   if (count === 150)
+//   {
+//     alert("Donga 150 beats ofoo, Kummeyi Enjoy Chestunava");
+//   }
+//   if(JSON.stringify(supriseSet)==JSON.stringify(targetset))
+//   {
+//    alert("Bujjigaaa I Love You");
+//   }
 }
 
 function keyboardAnimation(currentkey){
