@@ -135,11 +135,11 @@ function keyNote(event) {
   }
 //   if (count === 150)
 //   {
-//     alert("Donga 150 beats ofoo, Kummeyi Enjoy Chestunava");
+//     alert("150 beats");
 //   }
 //   if(JSON.stringify(supriseSet)==JSON.stringify(targetset))
 //   {
-//    alert("Bujjigaaa I Love You");
+//    alert("Test message");
 //   }
 }
 
